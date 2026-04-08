@@ -287,7 +287,7 @@ function renderActionCard(action) {
     }
 
     /* Mailto fallback — replace the email address below with a real one */
-    const mailto = `mailto:contact@fo-saint-maur.fr`
+    const mailto = `mailto:syndicat.fo@mairie-saint-maur.com`
       + `?subject=${encodeURIComponent(subject)}`
       + `&body=${encodeURIComponent(`Nom : ${name}\nEmail : ${email}\n\n${message}`)}`;
 
